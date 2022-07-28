@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InglesParaCriancas.Cores"
+             Title="Cores"
+             BackgroundColor ="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_black"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Black" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Preto" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout >
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_brown"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Brown" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Marrom" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_dusty_yellow"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Dusty Yellow" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Amarelo Empoeirado" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_gray"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Gray" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Cinza" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_green"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Green" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Verde" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_mustard_yellow"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Mustard Yellow" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Amarelo Mostarda" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_red"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Red" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Vermelho" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_white"/>
+                    <StackLayout>
+                        <Label Text="Inglês: White" FontSize="Large" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Branco" FontSize="Large" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
