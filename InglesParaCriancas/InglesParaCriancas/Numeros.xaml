@@ -57,7 +57,7 @@
                 </StackLayout >
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="number_serven"/>
+                    <Image Source="number_seven"/>
                     <StackLayout>
                         <Label Text="Inglês: Serven" FontSize="Large" VerticalOptions="EndAndExpand"/>
                         <Label Text="Português: Sete" FontSize="Large" VerticalOptions="StartAndExpand"/>
